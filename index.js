@@ -57,9 +57,7 @@ for (var i = 0; i < 4; i++) {
 
    document.querySelectorAll(".slide")[i].addEventListener("mouseout", function(){
              document.querySelector(".demo").innerHTML = "<p> Project Discription </p>";
-             document.querySelector(".demo").classList.remove("demo-style")
-             document.querySelector(".demo").classList.add("demo p")
-              
+             document.querySelector(".demo").classList.remove("demo-style")      
          });
 }
 
